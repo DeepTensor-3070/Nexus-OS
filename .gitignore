@@ -1,0 +1,163 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+myenv/
+env/
+ENV/
+.venv/
+.python-version
+
+# ===========================
+# Environment Variables
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Testing
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===========================
+# Type Checking
+# ===========================
+.mypy_cache/
+.pyre/
+.pytype/
+
+# ===========================
+# Linting
+# ===========================
+.ruff_cache/
+
+# ===========================
+# Build
+# ===========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# SQLite
+# ===========================
+*.sqlite3
+*.db
+
+# ===========================
+# Uploads & Generated Files
+# ===========================
+storage/uploads/
+storage/processed/
+storage/reports/
+storage/temp/
+
+backend/uploads/
+backend/storage/
+
+# ===========================
+# Vector Database
+# ===========================
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+*.index
+
+# ===========================
+# AI Models
+# ===========================
+models/
+checkpoints/
+weights/
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+
+# ===========================
+# Hugging Face Cache
+# ===========================
+.cache/
+huggingface/
+hf_cache/
+
+# ===========================
+# Data
+# ===========================
+data/raw/
+data/processed/
+data/interim/
+*.csv
+*.parquet
+*.feather
+
+# Keep sample datasets
+!data/sample/
+
+# ===========================
+# Temporary Files
+# ===========================
+tmp/
+temp/
+*.tmp
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+
+# ===========================
+# Secrets
+# ===========================
+*.pem
+*.key
+*.crt
+
+# ===========================
+# Misc
+# ===========================
+*.bak
+*.orig
